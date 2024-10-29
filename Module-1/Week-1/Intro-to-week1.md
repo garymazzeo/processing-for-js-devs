@@ -1,5 +1,7 @@
 I'll elaborate on Week 1's content by writing detailed concept documentation that would serve as your reading material for the first week. This is the kind of material you'd read before doing the hands-on exercises.
 
+[Read the Week 1 material](./processing-week1.md)
+
 This is the kind of detailed documentation you'd read for Week 1. It's written by me specifically for JavaScript developers, but it's inspired by and references concepts from official Processing documentation and books like Daniel Shiffman's "Learning Processing."
 
 The weekly study pattern I mentioned would work like this for Week 1:
