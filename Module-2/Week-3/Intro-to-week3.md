@@ -1,3 +1,5 @@
+[Read Week 3 material](./processing-week3.md)
+
 The key topics covered in Week 3 are:
 
 1. **Color Modes**: You'll learn about the differences between RGB (Red, Green, Blue) and HSB (Hue, Saturation, Brightness) color modes, and how to use each effectively in your sketches.

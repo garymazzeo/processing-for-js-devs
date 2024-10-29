@@ -6,7 +6,7 @@ The weekly study pattern I mentioned would work like this for Week 1:
 
 1. **Read concept documentation (2-3 hours)**
 
-   - Read through the material I just shared
+   - [Read through the Week 1 material](./processing-week1.md)
    - Review the official Processing reference for any concepts you want to explore further
    - Look at example sketches in the Processing IDE
 

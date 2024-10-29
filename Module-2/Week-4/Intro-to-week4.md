@@ -1,3 +1,5 @@
+[Read Week 4 material](./processing-week4.md)
+
 The key topics covered in Week 4 are:
 
 1. **Coordinate Transformations**: You'll learn how to use the `translate()`, `rotate()`, and `scale()` functions to transform the coordinate system and manipulate the placement and orientation of shapes.

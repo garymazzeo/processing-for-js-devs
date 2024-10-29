@@ -3,9 +3,11 @@
 ## 1. Setting Up Your Environment
 
 ### Processing IDE vs p5.js
+
 As a JavaScript developer, you have two main paths for learning Processing:
 
 1. **Native Processing (Java-based)**
+
    - Download from processing.org
    - Standalone IDE
    - Compiles to native applications
@@ -39,19 +41,20 @@ void draw() {
 ```
 
 JavaScript equivalent:
+
 ```javascript
 function setup() {
-  const canvas = document.createElement('canvas');
-  canvas.width = 800;
-  canvas.height = 600;
-  document.body.appendChild(canvas);
-  const ctx = canvas.getContext('2d');
-  ctx.fillStyle = 'white';
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  const canvas = document.createElement("canvas")
+  canvas.width = 800
+  canvas.height = 600
+  document.body.appendChild(canvas)
+  const ctx = canvas.getContext("2d")
+  ctx.fillStyle = "white"
+  ctx.fillRect(0, 0, canvas.width, canvas.height)
 }
 
 function draw() {
-  requestAnimationFrame(draw);
+  requestAnimationFrame(draw)
   // Animation code
 }
 ```
@@ -59,6 +62,7 @@ function draw() {
 ## 3. Coordinate System
 
 Processing uses a coordinate system similar to canvas, but with some key differences:
+
 - (0,0) is at the top-left corner
 - Positive Y goes down
 - Positive X goes right
@@ -69,6 +73,7 @@ Processing uses a coordinate system similar to canvas, but with some key differe
 ## 4. Basic Shapes and Colors
 
 ### Shapes
+
 ```processing
 // Rectangle
 rect(x, y, width, height);
@@ -91,6 +96,7 @@ endShape(CLOSE);  // CLOSE connects last point to first
 ```
 
 ### Colors
+
 ```processing
 // Fill and stroke colors
 fill(red, green, blue);        // RGB values 0-255
@@ -113,6 +119,7 @@ fill(red, green, blue, alpha); // alpha 0-255
 ## 6. Basic Animation Concepts
 
 Simple movement example:
+
 ```processing
 float x = 0;  // Position variable
 
@@ -133,6 +140,7 @@ void draw() {
 ## 7. First Project: Static Composition
 
 Your first project will be to create a static composition using basic shapes. Requirements:
+
 - Use at least 3 different types of shapes
 - Implement both fill and stroke
 - Use at least 4 different colors
@@ -140,21 +148,22 @@ Your first project will be to create a static composition using basic shapes. Re
 - Add comments explaining each major element
 
 Example starter code:
+
 ```processing
 void setup() {
   size(800, 600);
   background(240);  // Light gray background
-  
+
   // Large background circle
   fill(200, 100, 100);  // Dusty rose
   noStroke();
   ellipse(400, 300, 400, 400);
-  
+
   // Overlapping rectangles
   fill(100, 100, 200, 180);  // Semi-transparent blue
   stroke(50);
   rect(200, 200, 200, 200);
-  
+
   // Add more shapes...
 }
 
@@ -166,11 +175,13 @@ void draw() {
 ## Practice Exercises
 
 1. **Shape Explorer**
+
    - Create each basic shape type
    - Experiment with different fill/stroke combinations
    - Try varying sizes and positions
 
 2. **Color Grid**
+
    - Create a grid of squares
    - Each square should have a different color
    - Experiment with RGB vs grayscale
@@ -183,14 +194,17 @@ void draw() {
 ## Common Gotchas for JavaScript Developers
 
 1. **Type Declarations**
+
    - Processing requires type declarations (float, int, etc.)
    - Variables must be declared with their type
 
 2. **Function Declarations**
+
    - Must include return type (void if none)
    - Parameters must include types
 
 3. **Drawing State**
+
    - Fill/stroke settings persist until changed
    - No need to set them for each shape unless changing
 
@@ -210,6 +224,7 @@ void draw() {
 ## Next Steps
 
 After completing this week:
+
 1. You should understand the basic Processing development environment
 2. Be able to create simple static compositions
 3. Understand the coordinate system

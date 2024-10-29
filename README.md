@@ -6,7 +6,7 @@ This course is designed for JavaScript developers looking to explore creative co
 
 ## Module 1: Getting Started with Processing
 
-### Week 1: Setup and Basics
+### [Week 1: Setup and Basics](Module-1/Week-1/Intro-to-week1.md)
 
 - Installing Processing IDE vs p5.js
 - Understanding the draw loop (setup() and draw())
@@ -15,7 +15,7 @@ This course is designed for JavaScript developers looking to explore creative co
 - JavaScript equivalent comparisons
 - Project: Static composition using basic shapes
 
-### Week 2: Animation Fundamentals
+### [Week 2: Animation Fundamentals](Module-1/Week-2/Intro-to-week-2.md)
 
 - Variables and state management
 - Frame rate and timing
@@ -25,7 +25,7 @@ This course is designed for JavaScript developers looking to explore creative co
 
 ## Module 2: Visual Programming Concepts
 
-### Week 3: Color Theory and Implementation
+### [Week 3: Color Theory and Implementation](Module-2/Week-3/Intro-to-week3.md)
 
 - RGB vs HSB color modes
 - Color manipulation and palettes
@@ -33,7 +33,7 @@ This course is designed for JavaScript developers looking to explore creative co
 - Creating gradients
 - Project: Color-changing interactive pattern
 
-### Week 4: Transformations and Coordinate Systems
+### [Week 4: Transformations and Coordinate Systems](Module-2/Week-4/Intro-to-week4.md)
 
 - push() and pop() (similar to canvas save/restore)
 - translate(), rotate(), scale()
